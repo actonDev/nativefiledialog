@@ -16,6 +16,10 @@ if system == 'linux'
   sources += files(
     'src/nfd_gtk.c',
   )
+elif system == 'windows'
+  sources += files(
+    'src/nfd_win.cpp',
+  )
 else
   error('System ' + system + ' not implemented yet')
 endif
