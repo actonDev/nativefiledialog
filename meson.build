@@ -1,5 +1,5 @@
-project('nfd', 'cpp', 'c') # windows is cpp
-# project('iPlug2', 'cpp', 'c')
+project('nfd', 'cpp', 'c')
+# windows implementation is cpp
 
 system = build_machine.system()
 
